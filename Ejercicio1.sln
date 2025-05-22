@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practicaAPIs", "practicaAPIs\practicaAPIs.csproj", "{C16274C7-1E63-4FFF-8934-89964E5A50A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{38B51662-ED29-4A7F-B79D-29E2086AB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{8EB65814-86D2-4B74-B5A7-A987891EBE4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C16274C7-1E63-4FFF-8934-89964E5A50A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16274C7-1E63-4FFF-8934-89964E5A50A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16274C7-1E63-4FFF-8934-89964E5A50A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16274C7-1E63-4FFF-8934-89964E5A50A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B51662-ED29-4A7F-B79D-29E2086AB39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B51662-ED29-4A7F-B79D-29E2086AB39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B51662-ED29-4A7F-B79D-29E2086AB39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B51662-ED29-4A7F-B79D-29E2086AB39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB65814-86D2-4B74-B5A7-A987891EBE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB65814-86D2-4B74-B5A7-A987891EBE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB65814-86D2-4B74-B5A7-A987891EBE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB65814-86D2-4B74-B5A7-A987891EBE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03E3BFEE-1D8B-40D5-841D-61ED875ADB9C}
+	EndGlobalSection
+EndGlobal
