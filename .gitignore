@@ -1,1 +1,50 @@
+## Archivos de compilación
+bin/
+obj/
+
+## Archivos de Visual Studio
 .vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Archivos temporales
+*.log
+*.tlog
+*.tmp
+
+## Archivos de publicación
+*.Publish.xml
+
+## Configuraciones locales
+appsettings.Development.json
+secrets.json
+
+## Archivos de NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+
+## Archivos de Rider/JetBrains (opcional)
+.idea/
+
+## Archivos de IIS Express
+.vscode/
+.vsconfig
+*.dbmdl
+
+## Carpetas específicas
+TestResults/
+node_modules/
+dist/
+coverage/
+
+## Sistema
+Thumbs.db
+Desktop.ini
+
+## Archivos de entorno
+.env
