@@ -13,7 +13,7 @@ namespace negocio
         {
             List<Imagen> lista = new List<Imagen>();
 
-            database db = new database();
+            Database db = new Database();
 
             try
             {

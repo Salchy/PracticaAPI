@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="articulosDatos.cs" />
-    <Compile Include="database.cs" />
+    <Compile Include="ArticulosDatos.cs" />
+    <Compile Include="Database.cs" />
     <Compile Include="ImagenesDatos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

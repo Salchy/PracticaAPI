@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using dominio;
 
 namespace dominio
 {
@@ -26,5 +27,19 @@ namespace dominio
             Categoria = new Categoria();
         }
 
+        public Articulo(string nombre, string descripcion, string marca, string categoria, decimal precio)
+        {
+            
+            Imagenes = new List<Imagen>();
+            Marca = new Marca(marca);
+            Categoria = new Categoria(categoria);
+            Nombre = nombre;
+            Descripcion = descripcion;
+            Precio = Precio;
+
+            //Codigo = generateCode(string marca);
+        }
+
+        
     }
 }

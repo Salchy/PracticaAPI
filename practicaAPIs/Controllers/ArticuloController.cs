@@ -1,7 +1,6 @@
 ﻿using Antlr.Runtime.Misc;
 using dominio;
 using negocio;
-using practicaAPIs.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,16 +10,16 @@ using System.Web.Http;
 
 namespace practicaAPIs.Controllers
 {
-    public class ProductoController : ApiController
+    public class ArticuloController : ApiController
     {
-        // GET: api/Producto
+        // GET: api/Articulo
         public IEnumerable<Articulo> Get()
         {
             articuloDatos articulos = new articuloDatos();
             return articulos.getArticles();
         }
 
-        // GET: api/Producto/5
+        // GET: api/Articulo/5
         public Articulo Get(int id)
         {
             articuloDatos articulos = new articuloDatos();
@@ -29,19 +28,19 @@ namespace practicaAPIs.Controllers
         }
 
 
-        // POST: api/Producto
-        // Podría servir para insertar
-        public void Post([FromBody] Producto prd)
+        // POST: api/Articulo
+        // Podría servir para insertar artículos
+        public void Post([FromBody] Articulo art)
         {
 
         }
 
-        // PUT: api/Producto/5
+        // PUT: api/Articulo/5
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE: api/Producto/5
+        // DELETE: api/Articulo/5
         public void Delete(int id)
         {
         }
